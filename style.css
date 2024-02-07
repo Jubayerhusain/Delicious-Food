@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,700&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+:root{
+    --color1: #FF1493;
+    --color2: #EE82EE;
+    --color3: #ffffff;
+    --color4: #151f26;
+    --color5: red;
+}
+header{
+    background-color: var(--color1);
+    width: 100%;
+    display: flex;
+    position: sticky;
+    top: 0%;
+    /* z-index: 100; */
+}
+.right-nav{
+    width: 75%;
+    justify-content: space-between;
+    /* background-color: #151f26; */
+    display: flex;
+}
+button{
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 13px;
+    margin-right: 10px;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.8s;
+}
+.button button:hover{
+    background-color: var(--color1);
+    color: var(--color3);
+    border: 0.1px solid #ffffff;
+}
+.right-nav h1{
+    cursor: pointer;
+    color: var(--color3);
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.logo{
+    width: 20%;
+    background-color: var(--color3);
+    align-items: center;
+}
+.logo h1{
+    /* font-family: 'Oswald', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    color: var(--color1);
+    margin: 5px 0px 5px 56px;
+    padding: 0px 0px 1px 4px;
+    /* text-align: center; */
+    display: inline-block;
+    border-left: 3px solid #FF1493;
+    border-bottom: 3px solid #FF1493;
+    cursor: pointer;
+}
+
+.logo h1:hover{
+    color: rgb(255, 0, 0);
+    border-color: rgb(255, 0, 0);
+    transition: 0.8s;
+}
+.search-input{
+    width: 80%;
+    /* background-color: aqua; */
+    margin:50px auto;
+}
+.search-input h1{
+    font-size: 50px;
+    text-align: center;
+    width: 70%;
+    margin: 2px auto;
+    padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.8s;
+    color: var(--color4);
+}
+.search-input h1:hover{
+    color: var(--color1);
+}
+.search{
+    /* align-items: center; */
+    margin: 5px auto;
+    text-align: center;
+    display: block;
+}
+.search label{
+    background-color: var(--color1);
+    border: 2px solid;
+    color: var(--color3);
+    font-size: 40px;
+    transition: 0.9s;
+    border-radius: 5px;
+    padding: 0px 5px;
+
+}
+.search input{
+    font-size: 38px;
+    border-radius: 5px;
+    /* border-left: none; */
+}
+.search label:hover{
+    color: var(--color1);
+    background-color: var(--color3);
+}
+/* text-align: center;
+align-item:center;
+margin:auto; */
+.main-conteiner{
+    width: 95%;
+    margin: 5px auto;
+    /* background-color: #151f26; */
+}
+.main-conteiner h2{
+    font-family: 'Poppins', sans-serif;
+    display:block;
+    cursor: pointer;
+    padding-left: 22px;
+    color: var(--color4);
+}
+.main-conteiner p{
+    transition: 0.8s;
+    display: block;
+}
+.main-conteiner p:hover{
+    font-size: 25px;
+    color: var(--color1);
+}
+.main-conteiner .city{
+    /* margin: 20px; */
+    /* width: ; */
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+    transition: 1s;
+    border-radius: 5px;
+    /* height: 270px; */
+    /* background-color: #151f26;  */
+}
+.main-conteiner .city img{
+    /* border: 2px solid #151f26; */
+    margin: 10px;
+    /* margin-top: 5px; */
+    border-radius: 5px;
+    display: block;
+}
+.main-conteiner .city:hover{
+    transform: scale(1.1);
+    /* z-index: 2; */
+}
+.main-conteiner .city .city-name a{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 14px;
+    margin-top: 5px;
+    text-decoration: none;
+    display: block;
+    width: 88%;
+    font-size: 25px;
+    border: none;
+    margin-right: 13px;
+    border-radius: 5px;
+    color: var(--color3);
+    text-align: center;
+    transition: 0.8s;
+    background-color: var(--color1);
+}
+.main-conteiner .city .city-name a:hover{
+    color: var(--color1);
+    background-color: var(--color3);
+    border: 2px solid #FF1493;
+}
+.culom1, .culom2{
+    display: flex;
+    /* margin-top: 10px; */
+    align-items: center;
+    padding-left: 25px;
+}
