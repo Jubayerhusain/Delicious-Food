@@ -179,7 +179,7 @@ margin:auto; */
     background-color: var(--color3);
     border: 2px solid #FF1493;
 }
-.culom1, .culom2{
+.culom1, .culom2, .culom3{
     display: flex;
     /* margin-top: 10px; */
     align-items: center;
