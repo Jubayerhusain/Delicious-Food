@@ -295,6 +295,12 @@ margin:auto; */
     text-align: center;
     /* padding-left: 270px; */
 }
+
+
+/* footer menu */
+/* footer menu */
+/* footer menu */
+/* footer menu */
 .footer{
     width: 100%;
     /* height: 50vh; */
@@ -305,17 +311,3 @@ margin:auto; */
     text-align: center;
     border-top: 2px dotted;
 }
-.office-lunch{
-    width: 60%;
-    height: 50vh;
-    margin: auto;
-    background-color: hsl(300, 90%, 30%);
-}
-.lunch1{
-    width: 30%;
-    height: 300px;
-    background-color: #00ffff8c;
-    margin-top: 20px;
-    
-}
-.l
