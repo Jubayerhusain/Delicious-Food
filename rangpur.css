@@ -78,7 +78,7 @@ button{
 .main-conteiner{
     width: 98%;
 }
-.rangpur-division{
+.division{
     margin-top:20px;
     width: 100%;
     height: 200px;
@@ -89,7 +89,7 @@ button{
     background-color: white;
     box-shadow: 10px 1px 10px #FF1493;
 }
-.rangpur-division-left h1{
+.division-left h1{
     color: var(--color4);
     width: 50%;
     margin-left: 10px;
@@ -98,7 +98,7 @@ button{
     /* background-color: #2f495c; */
     transition: 0.8s;
 }
-.rangpur-division-left h1:hover{
+.division-left h1:hover{
     color: var(--color1);
 }
 .main-conteiner .home{
