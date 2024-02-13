@@ -133,35 +133,16 @@ button{
     margin-left: 20px;
     /* background-color: #151f26; */
 }
-.food-colum{
-    display: flex;
-    justify-content: space-between;
+.food-box{
+    width: 400px;
+    background-color: #fff;
+    text-align: center;
+    font-size: 16px;
+    float: left;
+    margin-left: 28px;
+    margin-top: 28px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0,0,.6);
 }
-.food-colum .image1{
-    margin-top: 22px;
-    width: 32%;
-    height: 320px;
-    /* background-color: #151f26; */
-    background-image: url(rangpur-food-image/image3.jpeg);
-    background-size: cover;
-}
-.food-colum .image2{
-    margin-top: 22px;
-    width: 32%;
-    height: 320px;
-    /* background-color: #151f26; */
-    background-image: url(rangpur-food-image/image5.jpeg);
-    background-size: cover;
-    /* background-position-x: left; */
-
-}
-.food-colum .image3{
-    margin-top: 22px;
-    width: 32%;
-    height: 320px;
-    /* background-color: #151f26; */
-    background-image: url(rangpur-food-image/image5.jpg);
-    background-size: cover;
-    /* background-position-x: left; */
-
+.food-box img{
+    width: 100%;
 }
