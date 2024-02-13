@@ -148,6 +148,7 @@ button{
     width: 100%;
     display: block;
     margin: auto;
+    border-radius: 5px;
 }
 .discount-conteiner{
     padding-top: 30%;
@@ -163,6 +164,7 @@ button{
     flex-direction: column;
     opacity: 0;
     transition: 0.6s;
+    border-radius: 5px;
 }
 .discount-conteiner:hover{
     opacity: 0.7;
@@ -181,4 +183,22 @@ button{
     margin: 0%;
     padding: 5px;
     border-radius: 5px;
+}
+.conteiner h3 {
+    color: var(--color4);
+    transition: 0.8s;
+    background-color: rgba(249, 241, 241, 0.6);
+}
+.conteiner span {
+    color: var(--color1);
+    font-weight: 800;
+    transition: 0.8s;
+    background-color: rgba(249, 241, 241, 0.6);
+
+}
+.conteiner h3:hover{
+    color: var(--color1);
+}
+.conteiner span:hover{
+    color: var(--color2);
 }
