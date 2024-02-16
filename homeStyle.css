@@ -366,3 +366,8 @@ margin:auto; */
     color: var(--color1);
     border: 1.5px solid #FF1493 ;
 }
+
+.getin-touch{
+    width: 100%;
+    box-shadow: -4px 5px 19px #151f26;
+}
